@@ -5,7 +5,7 @@ data_frame(numbers = 1:10, letters = letters[1:10])
 df <- read.csv('https://goo.gl/v7nvho') # as factors
 as.tibble(df)
 df <- read_csv('https://goo.gl/v7nvho')
-df2 <- read_tsv('https://raw.githubusercontent.com/agricolamz/2018_data_analysis_for_linguists/master/data/ustya_data.tsv')
+df2 <- read_tsv('https://goo.gl/33r2ut') # bad link((
 remove(df2) #rm(df)
 
 #pipe
